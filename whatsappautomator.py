@@ -1,3 +1,5 @@
+# You need both pywhatkit and flask installed for this to work
+# Just do "pip install pywhatkit" and do the same thing for flask in the PyCharm terminal
 import pywhatkit
 print("Whatsapp message automator made by Kyle Lam on January 13, 2022, Welcome!\n")
 
