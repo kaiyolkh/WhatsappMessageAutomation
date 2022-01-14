@@ -9,7 +9,7 @@ hr = int(input("Please enter the hour you want this message to send (Use 24 hour
 minute = int(input("Please enter the minute you want this message to send: "))
 
 # The if statements below basically just makes the output look better
-# For example if you want a message to be delivered at 12am, the output would show 00:00 instead of 0:0
+# For example, if you want a message to be delivered at 12am, the output would show 00:00 instead of 0:0
 if 0 <= hr <= 9: 
     hr = "0"+str(hr)
 if 0 <= minute <= 9:
