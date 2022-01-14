@@ -17,5 +17,3 @@ print("\nThank you for using the Whatsapp message automator! The message will be
 
 pywhatkit.sendwhatmsg(phonenum, msg, int(hr), int(min))
 # syntax: pywhatkit.sendwhatmsg("area code and phone number", "message", time in hours, time in minutes)
-
-
