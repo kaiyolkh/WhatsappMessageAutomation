@@ -18,4 +18,5 @@ if 0 <= minute <= 9:
 print("\nThank you for using the Whatsapp message automator! The message will be delivered to " + phonenum + " at " + str(hr) + ":" + str(minute))
 
 pywhatkit.sendwhatmsg(phonenum, msg, int(hr), int(minute))
-# Syntax: pywhatkit.sendwhatmsg("area code and phone number", "message", time (hour), time (minute))
+# Syntax: pywhatkit.sendwhatmsg("international area code and phone number (no spaces)", "message", time (hour), time (minute))
+# Example: pywhatkit.sendwhatmsg("+14165551234", "hello world", 15, 26)
